@@ -32,10 +32,12 @@
 <body>
 	<!-- Header -->
 	<header>
-		<a href="#html5">
-			<img src="html5-logo.jpeg" width="25" alt="HTML5">
-		</a>
-		<a href="#html5" id="html5">HTML5</a>
+		<div class="header-logo">
+			<a href="#html5">
+				<img src="html5-logo.jpeg" width="25" alt="HTML5">
+			</a>
+			<a href="#html5" id="html5">HTML5</a>
+		</div>
 		<nav>
 			<ul>
 				<li><a href="#header-content">Inicio</a></li>
@@ -47,62 +49,72 @@
 	<br>
 	<hr>
 	<br>
-	<section id="header-content">
+	<main id="header-content">
 		<article>
 			<img src="html5-logo.jpeg" width="250" alt="HTML">
-			<h1>Uma maneira simples e fácil de mostrar o poder do HTML5.</h1>
-			<p><mark>Aonde</mark> e a <b>hora</b> que quiser, com um <i>notebook</i> e <em>navegador</em>.</p>
-			<span><b>Obs</b>: tem que saber usar os <b><sup>elementos</sup></b> e <b><sup>atributos</sup></b> <em>"semanticamente"</em> correto.</span>
+			<h1>A revolução da internet através do browser!</h1>
+			<p><mark>Simples</mark> <b>dinâmico</b> e <i>acessível</i>.</p>
+			<span>O <u>desenvolvimento</u> é feito através de <b><sup>elementos</sup></b> e <b><sup>atributos</sup></b>, que devem estar <em>"semanticamente"</em> corretos.</span>
 		</article>
-	</section>
+	</main>
 	<br>
 	<hr>
 	<br>
 	<!-- Content -->
 	<section id="body-content">
-		<h2>Definições e outros conteúdos</h2>
+		<h2>Referências</h2>
 		<table>
-			<tr>
-				<th scope="col">Título</th>
-				<th scope="col"><s>#</s></th>
-				<th scope="col">Descrição</th>
-			</tr>
-			<tr>
-				<td>HTML<sup>5</sup></td>
-				<td>-#-</td>
-				<td>Linguagem de marcação para definição de propriedades da estrutura de <em>páginas web</em>.</td>
-			</tr>
-			<tr>
-				<td>Metadatas</td>
-				<td>-#-</td>
-				<td>Ficam no elemento <b><sup>&lt;head&gt;</sup></b>, contém as informações da página, configuração para o <em><s>SEO</s></em>, e inclui os estilos (CSS) e escritos (JS).</td>
-			</tr>
-			<tr>
-				<td>Sessão-root</td>
-				<td>-#-</td>
-				<td>É o elemento <b><sup>&lt;body&gt;</sup></b>, o qual representa o conteúdo do documento <em>HTML</em> exibido para o usuário.</td>
-			</tr>
-			<tr>
-				<td>Elementos</td>
-				<td>-#-</td>
-				<td>São as "tags" utilizadas para fazer a identificação da estrutura e semantica da página para o navegador.</td>
-			</tr>
-			<tr>
-				<td>W3C</td>
-				<td>-#-</td>
-				<td>Referências no link: <a href="https://www.w3.org/TR/html52/" target="_blank" rel="noopener">https://www.w3.org/TR/html52/</a></td>
-			</tr>
-			<tr>
-				<td>MDN</td>
-				<td>-#-</td>
-				<td>Referências no link: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Web/HTML</a></td>
-			</tr>
-			<tr>
-				<td>The Open Graph protocol</td>
-				<td>-#-</td>
-				<td>Referências no link: <a href="http://ogp.me/" target="_blank" rel="noopener">http://ogp.me/</a></td>
-			</tr>
-
+			<thead>
+				<tr>
+					<th scope="col">Título</th>
+					<th scope="col"><s>#</s></th>
+					<th scope="col">Descrição</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><em>MDN - HTML<sup>5</sup></em></td>
+					<td>-#-</td>
+					<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Web/HTML</a></td>
+				</tr>
+				<tr>
+					<td>Elementos</td>
+					<td>-#-</td>
+					<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Web/HTML/Element</a></td>
+				</tr>
+				<tr>
+					<td>Metadata</td>
+					<td>-#-</td>
+					<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head</a></td>
+				</tr>
+				<tr>
+					<td>Flow contents</td>
+					<td>-#-</td>
+					<td><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content</a></td>
+				</tr>
+				<tr>
+					<td>Tabelas</td>
+					<td>-#-</td>
+					<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table</a></td>
+				</tr>
+				<tr>
+					<td>Multimídias</td>
+					<td>-#-</td>
+					<td><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding</a></td>
+				</tr>
+				<tfoot>
+					<tr>
+						<td><em>W3C</em></td>
+						<td>-#-</td>
+						<td><a href="https://www.w3.org/TR/html52/" target="_blank" rel="noopener">https://www.w3.org/TR/html52/</a></td>
+					</tr>
+					<tr>
+						<td><em>The Open Graph protocol</em></td>
+						<td>-#-</td>
+						<td><a href="http://ogp.me/" target="_blank" rel="noopener">http://ogp.me/</a></td>
+					</tr>
+				</tfoot>
+			</tbody>
 		</table>
 	</section>
 	<br>
